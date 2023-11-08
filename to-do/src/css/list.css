@@ -1,0 +1,98 @@
+.list {
+    background-color: rgb(112, 128, 144, 0.3);
+    border: 0px;
+    border-radius: 10px;
+    margin: 10%;
+    margin-top: 5%;
+    padding: 3%;
+    padding-top: 1% ;
+    color: black;
+    
+}
+
+/* whats the task and add button */
+ .input-wrapper {
+     text-align: center;
+     
+ }
+
+ .todo-list{
+     /* background-color: aqua; */
+     margin-right: 3%;
+ }
+
+
+
+
+ /* to-do list item and delete button */
+ .row{
+    /* background-color: blueviolet; */
+    font-size: 3vh;
+    display: flex;
+    align-items: baseline ;
+}
+
+.text{
+    word-wrap: break-word;
+    color: rgb(61, 60, 60);
+}
+
+
+.delete-button {
+    text-align: center;
+    width: 10vh;
+    height: 3.5vh;
+    font-size: 2vh;
+    margin-left: auto;
+    color: cornflowerblue;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.delete-button:hover{
+    background-color: rgb(50, 81, 139);
+    color: white;
+}
+
+.checkbox-input{
+    width: 2vh;
+    height: 2vh;
+    margin-right: 20px;
+}
+
+.checkbox-input:checked {
+    /* Add styles for when the checkbox is checked */
+    background-color: cornflowerblue; /* Change background color when checked */
+    border-color: cornflowerblue /* Change border color when checked */
+  }
+
+
+/* what's the task part */
+input{
+    margin-right: 2%;
+    width: 80%;
+    height: 5vh;
+    border: 0;
+    border-radius: 5px;
+    font-size: 3vh;
+    padding-left: 3vh;
+}
+
+.add-button{
+    width: 10%;
+    height: 5vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 3vh;
+    color: white;
+}
+
+.add-button:hover{
+    background-color: rgb(50, 81, 139);
+}
+
+.empty{
+    text-align: center;
+}
